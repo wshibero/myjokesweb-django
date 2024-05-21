@@ -5,3 +5,4 @@ from pyjokes import get_joke
 
 def index(request):
   return render(request, 'index.html', {"joke": get_joke(language="en", category="all")})
+  
